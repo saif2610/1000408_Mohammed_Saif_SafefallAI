@@ -28,7 +28,6 @@ st.caption(
 with st.sidebar:
     st.header("About this model")
     st.metric("Reported accuracy", f"{model_bundle.get('accuracy', 0):.1%}")
-    st.write("Classes:", list(model_bundle["labels"].values()))
     st.write("Rolling window size:", model_bundle.get("window_size", 10), "frames")
     st.caption(
         "This is a coursework prototype, not a certified medical device. "
