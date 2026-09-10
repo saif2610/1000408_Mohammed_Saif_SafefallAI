@@ -1,0 +1,8 @@
+streamlit
+mediapipe==0.10.14
+opencv-python-headless
+scikit-learn
+joblib
+numpy
+pandas
+ 
